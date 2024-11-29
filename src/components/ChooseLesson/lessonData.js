@@ -12,7 +12,7 @@ const lessonData = {
         order: 0,
       },
     ],
-    layoutNumber: 4,
+    layoutNumber: 1,
     navigation: [
       { available_scene: "4", current_scene: "2", previous_scene: "1",text: "Continue" },
     ],
