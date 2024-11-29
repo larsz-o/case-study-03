@@ -9,7 +9,7 @@ const partA = (
         <li>Educate security officers about the clinical services offered by CSRPG.</li>
         <li>Discuss basic psychological first aid and coping skills.</li>
         </ol>
-<p>HWhat is your first course of action?</p>`,
+<p>What is your first course of action?</p>`,
       options: [
         { text: `Begin to tailor the workshop series curriculum just for security officers, with Mr. Zimmerman’s input.`, conditions: {type: null, command: "NEXT", index: null}, feedback: `This is not a bad choice, but there is a better option. It’s a great idea to work with Mr. Zimmerman to create trainings that will better serve this population, but try connecting with the security officers themselves first.` },
         { text: `Attend security officer huddles to introduce yourself and the curriculum you offer through CSRPG.`, conditions: {type: null, command: "NEXT", index: null}, feedback: `This is the best choice in this situation. By attending the security officer huddles, you can begin to get to know them so that you can better tailor the workshops to their needs.` },
