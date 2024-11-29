@@ -60,7 +60,10 @@ morning and the remaining one-third in the afternoon to connect with officers ac
 workshops, none of the security officers were able to attend all six due to time conflicts.
 </p>`,
     multipleSelect: false, 
-    type: "none"
+    type: "open",
+    options: [
+      {text: `Was this pilot program a success? Why?`, conditions: {type: null, command: '', index: null}, feedback: ``}
+    ],
 },
 "5": {
   question: `<p>After the pilot was complete, the hospital administration asked for data from your team to validate the program’s effectiveness. 
