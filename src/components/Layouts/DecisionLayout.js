@@ -273,7 +273,7 @@ const DecisionLayout = (props) => {
             <div className="col-sm-12 col-lg-10 col-md-10">
        
               <div className="decision-feedback">
-            <p>This was a complex situation, which may have raised a number of questions for you as you nagivated through it. Consider the following questions as you reflect on your interactions with Sergeant Ruiz.</p>
+            <p>This was a complex situation, which may have raised a number of questions for you as you nagivated through it. Consider the following questions as you reflect on this scenario.</p>
             <ul><li>How effectively did the chaplain collaborate in designing and implementing this work? </li>
         <li>To what extent might this approach be applicable to other front-line non-medical workers such as those on the dining or cleaning staff? Can you anticipate any different challenges for these groups?</li>
         <li>How might race, class, and gender have impacted how decisions were made in this situation? </li>
