@@ -36,8 +36,9 @@ const lessonData = {
     last: false,
     checkpoints: [], 
     images: [
+    
     ],
-    layoutNumber: 1,
+    layoutNumber: 4,
     navigation: [
       { available_scene: "5", current_scene: "4", previous_scene: "2",text: "Continue" },
     ],
@@ -65,7 +66,7 @@ const lessonData = {
         alt: "Chaplain Zorina Costello",
         image:
           "https://chaplaincy-innovation-lab-lessons.s3.us-east-1.amazonaws.com/2025-01/Chaplain+Zorina+Costello.jpeg",
-        order: 0,
+        order: 86,
       },
     ],
     layoutNumber: 1,
