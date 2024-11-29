@@ -62,13 +62,13 @@ const lessonData = {
     checkpoints: [],
     images: [
       {
-        alt: "Press conference",
+        alt: "Chaplain Zorina Costello",
         image:
-          "https://chaplaincy-innovation-lab-lessons.s3.us-east-1.amazonaws.com/2025-01/shutterstock_376505077.jpg",
+          "https://chaplaincy-innovation-lab-lessons.s3.us-east-1.amazonaws.com/2025-01/Chaplain+Zorina+Costello.jpeg",
         order: 0,
       },
     ],
-    layoutNumber: 4,
+    layoutNumber: 1,
     navigation: [
       { available_scene: "6", current_scene: "5", previous_scene: "4",text: "Continue" },
     ],
@@ -78,9 +78,7 @@ const lessonData = {
     sidebarVideos: [],
     sidebarText: [],
     text: [
-      `<p>A few short hours later, Dr. Hendel stood next to the Mayor and Police Chief at a short televised press conference. "It is with a heavy heart that I address you today.” she said somberly. "I'm heartbroken to announce that two members of our employee family have been killed, and another is in critical condition.”</p><p>She took a shallow breath and continued explaining that throughout the entire event, "our first priority was to ensure the safety of our patients - and that they were well cared for.” She continued, "I can assure you that our patients are safe.”</p>
-
-<p>As details emerged, the hospital and public learned that, "A pharmacy technician showed up for work at Long Beach Memorial Medical Center…brandishing two handguns, killed his boss and another manager and then fatally shot himself.” <strong>This was not a random act as the perpetrator Mario Ramirez sought out and killed Hugo Bustamante and Kelly Hales before turning the gun on himself.</strong></p>`,
+      `<p>You are Chaplain Zorina Costello. You work with CSRPG, and have gotten to know many of the security officers through her ten years at Mount Sinai Hospital. You work with them de-escalating patient and family situations and offering one on one support. You and Telvet Zimmerman, Director of Security Services at Mount Sinai Hospital began working together to explore how to extend and enhance the support offered through CSRPG to the security staff. </p>`,
     ],
     title: null,
     videos: [],
@@ -93,7 +91,7 @@ const lessonData = {
     images: [],
     layoutNumber: 4,
     navigation: [
-      { available_scene: "7", current_scene: "6", previous_scene: "5",text: "Continue" },
+      { available_scene: "8", current_scene: "6", previous_scene: "5",text: "Continue" },
     ],
     scene_number: "6",
     sidebar: false,
@@ -101,36 +99,16 @@ const lessonData = {
     sidebarVideos: [],
     sidebarText: [],
     text: [
-      `<p>In the difficult days that followed Dr. Hendel and leaders across the hospital and the healthcare system worked with colleagues in public safety, crisis response, regulatory issues, human resources, and spiritual care to work with the living and the dead.</p><p>In addition to helping the families of those who died navigate post-employment procedures, the chaplains were asked to help plan and conduct onsite memorial services for those who were killed, all three of whom were members of the hospital community. </p>`,
-    ],
-    title: "The Spiritual Care Team's Responsibilities",
-    videos: [],
-    audio: [],
-  },    
-  7: {
-    checkpoint: false,
-    last: false,
-    checkpoints: [],
-    images: [],
-    layoutNumber: 4,
-    navigation: [
-      { available_scene: "8", current_scene: "7", previous_scene: "6",text: "Continue" },
-    ],
-    scene_number: "7",
-    sidebar: false,
-    sidebarImages: [],
-    sidebarVideos: [],
-    sidebarText: [],
-    text: [
-      `<p>In Dr. Hendel's words, "Because we were fortunate to have a large and diverse team of pastors on staff who were experienced in conducting memorial and remembrance services in addition to their usual duties as hospital chaplains, it wasn't uncommon for us to hold services on site when an employee, physician or volunteer passed away. We'd also become accustomed to holding them for board members, community members, and long-time patients whom we'd grown close to and considered part of our organizational family. Sometimes the services were held in addition to a funeral hosted by their family and sometimes they were held in lieu of one. It has become a hallmark of our culture, reflecting our mission for caring for the people in our community at all stages of life, from beginning to end.”</p>
+      `<p>There are about 174 security officers in the hospital who work days, nights and some
+combination. Most work 37.5 hours per week. Shifts are typically 8 hour shifts with mandated overtime, a maximum of two overtime shifts per week.</p>
 
-<p>"There was no question that we'd be hosting memorial services for our colleagues - we knew it would be necessary to honor them and collectively grieve as an organization. And even though we had a large auditorium that could accommodate several hundred people, we knew it would be overflowing at each service” (p. 89-90). In addition to colleagues in the hospital, Kelly and Hugo were active in professional associations of pharmacists and the alumni networks of alma maters. 
+<p>The majority of security officers are men of color. Staff turnover is higher than ideal. Most communication occurs in team huddles, not through email. Some officers at times feel isolated. Prior to these efforts, the officers had not necessarily been able to speak about their experiences during COVID. Some are aware of the CSRPG but do not have time or flexibility during their working hours to attend workshops.
 </p>`,
     ],
-    title: "The Spiritual Care Team's Responsibilities",
+    title: "Security Staff Demographics",
     videos: [],
     audio: [],
-  },    
+  },       
   8: {
     checkpoint: false,
     last: false,
@@ -139,9 +117,10 @@ const lessonData = {
       answer: false,
       content_type: 5,
       data:
-        `<ul><li>What went well in this situation? How did the chaplain work with stakeholders to memorialize a complex situation?</li>
-        <li>How might race, class, and gender have impacted how decisions were made in this situation?</li>
-        <li>How should organizations make decisions about memory in situations like this? For instance, putting the victims’ names on the monument, holding memorial services? Who should be involved in making these decisions? </li>
+        `<ul><li>How effectively did the chaplain collaborate in designing and implementing this work? </li>
+        <li>To what extent might this approach be applicable to other front-line non-medical workers such as those on the dining or cleaning staff? Can you anticipate any different challenges for these groups?</li>
+        <li>How might race, class, and gender have impacted how decisions were made in this situation? </li>
+        <li>What is (or should be) the relationship between institutional support focused on individuals and change that requires system-wide re-thinking?</li>
         </ul>`,
       order: 0,
       question_type: 2,
@@ -151,7 +130,7 @@ const lessonData = {
     images: [],
     layoutNumber: 9,
     navigation: [
-      { available_scene: "10", current_scene: "7", previous_scene: "6",text: "Continue" },
+      { available_scene: "10", current_scene: "8", previous_scene: "6",text: "Continue" },
     ],
     scene_number: "7",
     sidebar: false,
@@ -177,7 +156,7 @@ const lessonData = {
     sidebarVideos: [],
     sidebarText: [],
     text: [
-      `<p>You finished this lesson! You made important decisions about how to deal with violence, trauma, and grief in the workplace. You learned how to balance stakeholder opinions with the needs of those who were most directly affected by violence. These were not easy decisions, and in some instances, there weren't any clear cut answers. </p>`
+      `<p>You’ve completed this case study lesson. In this situation, you considered how to reach an underserved population within the hospital setting. You were collaborative and flexible in your approach to ensure that the group felt invited into your offerings. You engaged with them when you faced resistance and continued to center their needs through program evaluation and planning for the future. </p>`
     ],
     title: "Lesson complete",
     videos: [],
